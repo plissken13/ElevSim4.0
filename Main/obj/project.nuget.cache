@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "HUmQpcZRwQ3FYPt/88+bSDWTfByFNoC6w2RYMexjO2npE2ucpqH7FnuWiOy/eT7dP6/mC8YqrPW/sqaWFV3gdQ==",
+  "success": true,
+  "projectFilePath": "D:\\Development\\ElevSim4.0\\ElevSim4.0\\Main\\Main.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Alisa\\.nuget\\packages\\autofac\\6.1.0\\autofac.6.1.0.nupkg.sha512",
+    "C:\\Users\\Alisa\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.1\\system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512"
+  ],
+  "logs": []
+}
