@@ -10,7 +10,7 @@ using View;
 
 namespace Presentation
 {
-    public class StartConfigPresenter
+    public class StartConfigPresenter : IPresenter
     {
         private IStartConfigView _view;
 
@@ -24,7 +24,7 @@ namespace Presentation
             _service = service;
         }
 
-        private void AddStartConfig()
+        public void AddStartConfig()
         {
             if (_view.FloorsNumber < 21 && _view.LiftsNumber < 6)
             {

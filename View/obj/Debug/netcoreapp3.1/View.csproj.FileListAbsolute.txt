@@ -1,6 +1,5 @@
 D:\Development\ElevSim4.0\ElevSim4.0\View\bin\Debug\netcoreapp3.1\View.exe
 D:\Development\ElevSim4.0\ElevSim4.0\View\obj\Debug\netcoreapp3.1\View.csprojAssemblyReference.cache
-D:\Development\ElevSim4.0\ElevSim4.0\View\obj\Debug\netcoreapp3.1\View.StartConfigView.resources
 D:\Development\ElevSim4.0\ElevSim4.0\View\obj\Debug\netcoreapp3.1\View.csproj.GenerateResource.cache
 D:\Development\ElevSim4.0\ElevSim4.0\View\obj\Debug\netcoreapp3.1\View.AssemblyInfoInputs.cache
 D:\Development\ElevSim4.0\ElevSim4.0\View\obj\Debug\netcoreapp3.1\View.AssemblyInfo.cs

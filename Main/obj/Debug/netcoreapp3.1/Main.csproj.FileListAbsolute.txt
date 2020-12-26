@@ -19,3 +19,5 @@ D:\Development\ElevSim4.0\ElevSim4.0\Main\obj\Debug\netcoreapp3.1\Main.csproj.Co
 D:\Development\ElevSim4.0\ElevSim4.0\Main\obj\Debug\netcoreapp3.1\Main.dll
 D:\Development\ElevSim4.0\ElevSim4.0\Main\obj\Debug\netcoreapp3.1\Main.pdb
 D:\Development\ElevSim4.0\ElevSim4.0\Main\obj\Debug\netcoreapp3.1\Main.genruntimeconfig.cache
+D:\Development\ElevSim4.0\ElevSim4.0\Main\obj\Debug\netcoreapp3.1\Main.StartConfigView.resources
+D:\Development\ElevSim4.0\ElevSim4.0\Main\obj\Debug\netcoreapp3.1\Main.csproj.GenerateResource.cache

@@ -13,8 +13,5 @@
     <Compile Update="MainFrame.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="StartConfigView.cs">
-      <SubType>Form</SubType>
-    </Compile>
   </ItemGroup>
 </Project>

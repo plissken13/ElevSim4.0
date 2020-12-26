@@ -14,4 +14,10 @@
     <ProjectReference Include="..\View\View.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Compile Update="StartConfigView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+
 </Project>
