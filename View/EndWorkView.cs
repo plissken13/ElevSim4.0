@@ -8,16 +8,11 @@ using System.Windows.Forms;
 
 namespace View
 {
-    public partial class EndWork : Form
+    public partial class EndWorkView : Form
     {
-        public EndWork()
+        public EndWorkView()
         {
             InitializeComponent();
-        }
-
-        private void lbl_1_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

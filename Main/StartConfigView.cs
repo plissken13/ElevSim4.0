@@ -17,13 +17,6 @@ namespace Main
         public StartConfigView()
         {
             InitializeComponent();
-            var container = AutofacBuilder.Build();
-
-            using (var scope = container.BeginLifetimeScope())
-            {
-                var presenter = scope.Resolve<IPresenter>();
-                var view = scope.Resolve<IMainFrameView>();
-            }
         }
 
         private void btn_addBuilding_Click(object sender, EventArgs e)
@@ -34,6 +27,11 @@ namespace Main
         public void ShowError(string message)
         {
             throw new NotImplementedException();
+        }
+
+        private void lbl_liftNum_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

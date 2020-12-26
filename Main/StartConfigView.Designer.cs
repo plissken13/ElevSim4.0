@@ -50,7 +50,7 @@
             // lbl_floorNum
             // 
             this.lbl_floorNum.AutoSize = true;
-            this.lbl_floorNum.Location = new System.Drawing.Point(20, 86);
+            this.lbl_floorNum.Location = new System.Drawing.Point(14, 55);
             this.lbl_floorNum.Name = "lbl_floorNum";
             this.lbl_floorNum.Size = new System.Drawing.Size(131, 25);
             this.lbl_floorNum.TabIndex = 1;
@@ -59,15 +59,16 @@
             // lbl_liftNum
             // 
             this.lbl_liftNum.AutoSize = true;
-            this.lbl_liftNum.Location = new System.Drawing.Point(219, 86);
+            this.lbl_liftNum.Location = new System.Drawing.Point(151, 55);
             this.lbl_liftNum.Name = "lbl_liftNum";
             this.lbl_liftNum.Size = new System.Drawing.Size(134, 25);
             this.lbl_liftNum.TabIndex = 2;
             this.lbl_liftNum.Text = "Кол-во лифтов";
+            this.lbl_liftNum.Click += new System.EventHandler(this.lbl_liftNum_Click);
             // 
             // txt_floorNum
             // 
-            this.txt_floorNum.Location = new System.Drawing.Point(24, 115);
+            this.txt_floorNum.Location = new System.Drawing.Point(15, 83);
             this.txt_floorNum.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txt_floorNum.Name = "txt_floorNum";
             this.txt_floorNum.Size = new System.Drawing.Size(130, 31);
@@ -75,7 +76,7 @@
             // 
             // txt_liftNum
             // 
-            this.txt_liftNum.Location = new System.Drawing.Point(223, 115);
+            this.txt_liftNum.Location = new System.Drawing.Point(151, 84);
             this.txt_liftNum.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txt_liftNum.Name = "txt_liftNum";
             this.txt_liftNum.Size = new System.Drawing.Size(130, 31);
@@ -85,7 +86,7 @@
             // 
             this.lbl_liftParameters.AutoSize = true;
             this.lbl_liftParameters.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lbl_liftParameters.Location = new System.Drawing.Point(20, 212);
+            this.lbl_liftParameters.Location = new System.Drawing.Point(14, 134);
             this.lbl_liftParameters.Name = "lbl_liftParameters";
             this.lbl_liftParameters.Size = new System.Drawing.Size(254, 29);
             this.lbl_liftParameters.TabIndex = 5;
@@ -103,7 +104,7 @@
             this.btn_addBuilding.UseVisualStyleBackColor = true;
             this.btn_addBuilding.Click += new System.EventHandler(this.btn_addBuilding_Click);
             // 
-            // Form1
+            // StartConfigView
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -116,7 +117,7 @@
             this.Controls.Add(this.lbl_floorNum);
             this.Controls.Add(this.lbl_buildingParameters);
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.Name = "Form1";
+            this.Name = "StartConfigView";
             this.Text = "Симулятор лифта";
             this.ResumeLayout(false);
             this.PerformLayout();

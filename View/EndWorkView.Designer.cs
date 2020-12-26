@@ -1,6 +1,6 @@
 ﻿namespace View
 {
-    partial class EndWork
+    partial class EndWorkView
     {
         /// <summary>
         /// Required designer variable.
@@ -122,7 +122,6 @@
             this.lbl_1.Size = new System.Drawing.Size(22, 25);
             this.lbl_1.TabIndex = 6;
             this.lbl_1.Text = "1";
-            this.lbl_1.Click += new System.EventHandler(this.lbl_1_Click);
             // 
             // lbl_2
             // 
