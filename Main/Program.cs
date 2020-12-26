@@ -20,15 +20,6 @@ namespace Main
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new StartConfigView());
-
-            var builder = new ContainerBuilder();
-            var container = builder.Build();
-
-            using (var scope = container.BeginLifetimeScope())
-            {
-                var presenter = scope.Resolve<StartConfigPresenter>();
-                var view = scope.Resolve<IStartConfigView>();
-            }
         }
     }
 }
