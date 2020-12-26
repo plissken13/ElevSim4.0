@@ -10,7 +10,7 @@ using View;
 
 namespace Presentation
 {
-    public class StartConfigPresenter : IPresenter
+    public class StartConfigPresenter 
     {
         private IStartConfigView _view;
 

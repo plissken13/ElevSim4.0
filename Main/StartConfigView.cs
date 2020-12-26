@@ -22,7 +22,7 @@ namespace Main
             using (var scope = container.BeginLifetimeScope())
             {
                 var presenter = scope.Resolve<IPresenter>();
-                var view = scope.Resolve<IStartConfigView>();
+                var view = scope.Resolve<IMainFrameView>();
             }
         }
 
