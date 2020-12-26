@@ -19,4 +19,4 @@ D:\Development\ElevSim4.0\ElevSim4.0\View\obj\Debug\netcoreapp3.1\View.genruntim
 D:\Development\ElevSim4.0\ElevSim4.0\View\obj\Debug\netcoreapp3.1\View.AddWorkerView.resources
 D:\Development\ElevSim4.0\ElevSim4.0\View\obj\Debug\netcoreapp3.1\View.AlarmView.resources
 D:\Development\ElevSim4.0\ElevSim4.0\View\obj\Debug\netcoreapp3.1\View.ChangeRules.resources
-D:\Development\ElevSim4.0\ElevSim4.0\View\obj\Debug\netcoreapp3.1\View.EndWork.resources
+D:\Development\ElevSim4.0\ElevSim4.0\View\obj\Debug\netcoreapp3.1\View.EndWorkView.resources

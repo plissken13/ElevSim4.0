@@ -14,5 +14,11 @@ namespace View
         {
             InitializeComponent();
         }
+
+        private void btn_exportFile_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
     }
 }

@@ -28,28 +28,28 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.lbl_alarm = new System.Windows.Forms.Label();
+            this.txt_alarm = new System.Windows.Forms.TextBox();
             this.lbl_sec = new System.Windows.Forms.Label();
             this.btn_addAlarm = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // label1
+            // lbl_alarm
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(13, 13);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(273, 25);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Продолжительность тревоги:";
+            this.lbl_alarm.AutoSize = true;
+            this.lbl_alarm.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lbl_alarm.Location = new System.Drawing.Point(13, 13);
+            this.lbl_alarm.Name = "lbl_alarm";
+            this.lbl_alarm.Size = new System.Drawing.Size(273, 25);
+            this.lbl_alarm.TabIndex = 0;
+            this.lbl_alarm.Text = "Продолжительность тревоги:";
             // 
-            // textBox1
+            // txt_alarm
             // 
-            this.textBox1.Location = new System.Drawing.Point(13, 60);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(150, 31);
-            this.textBox1.TabIndex = 1;
+            this.txt_alarm.Location = new System.Drawing.Point(13, 60);
+            this.txt_alarm.Name = "txt_alarm";
+            this.txt_alarm.Size = new System.Drawing.Size(150, 31);
+            this.txt_alarm.TabIndex = 1;
             // 
             // lbl_sec
             // 
@@ -68,6 +68,7 @@
             this.btn_addAlarm.TabIndex = 3;
             this.btn_addAlarm.Text = "Добавить";
             this.btn_addAlarm.UseVisualStyleBackColor = true;
+            this.btn_addAlarm.Click += new System.EventHandler(this.btn_addAlarm_Click);
             // 
             // AlarmView
             // 
@@ -76,8 +77,8 @@
             this.ClientSize = new System.Drawing.Size(370, 109);
             this.Controls.Add(this.btn_addAlarm);
             this.Controls.Add(this.lbl_sec);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.txt_alarm);
+            this.Controls.Add(this.lbl_alarm);
             this.Name = "AlarmView";
             this.Text = "Тревога!";
             this.ResumeLayout(false);
@@ -87,8 +88,8 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Label lbl_alarm;
+        private System.Windows.Forms.TextBox txt_alarm;
         private System.Windows.Forms.Label lbl_sec;
         private System.Windows.Forms.Button btn_addAlarm;
     }

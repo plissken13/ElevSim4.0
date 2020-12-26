@@ -14,5 +14,10 @@ namespace View
         {
             InitializeComponent();
         }
+
+        private void btn_addAlarm_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

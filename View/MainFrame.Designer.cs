@@ -55,6 +55,7 @@
             this.btn_addWorker.TabIndex = 1;
             this.btn_addWorker.Text = "Добавить сотрудника";
             this.btn_addWorker.UseVisualStyleBackColor = true;
+            this.btn_addWorker.Click += new System.EventHandler(this.btn_addWorker_Click);
             // 
             // btn_alarm
             // 
@@ -74,7 +75,6 @@
             this.btn_startPause.TabIndex = 3;
             this.btn_startPause.Text = "Пауза/Старт";
             this.btn_startPause.UseVisualStyleBackColor = true;
-            this.btn_startPause.Click += new System.EventHandler(this.btn_startPause_Click);
             // 
             // btn_changeRules
             // 
@@ -103,7 +103,7 @@
             this.btn_end.TabIndex = 2;
             this.btn_end.Text = "Завершить работу";
             this.btn_end.UseVisualStyleBackColor = true;
-            this.btn_end.Click += new System.EventHandler(this.btn_alarm_Click);
+            this.btn_end.Click += new System.EventHandler(this.btn_end_Click);
             // 
             // btn_export
             // 
@@ -113,7 +113,6 @@
             this.btn_export.TabIndex = 2;
             this.btn_export.Text = "Экспорт правил";
             this.btn_export.UseVisualStyleBackColor = true;
-            this.btn_export.Click += new System.EventHandler(this.btn_alarm_Click);
             // 
             // MainFrame
             // 

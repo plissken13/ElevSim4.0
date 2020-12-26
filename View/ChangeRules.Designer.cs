@@ -129,6 +129,7 @@
             this.btn_random.TabIndex = 8;
             this.btn_random.Text = "Случайно";
             this.btn_random.UseVisualStyleBackColor = true;
+            this.btn_random.Click += new System.EventHandler(this.btn_random_Click);
             // 
             // btn_addWorker
             // 
@@ -255,7 +256,6 @@
             this.btn_addAlarm.TabIndex = 18;
             this.btn_addAlarm.Text = "Добавить";
             this.btn_addAlarm.UseVisualStyleBackColor = true;
-            this.btn_addAlarm.Click += new System.EventHandler(this.button1_Click);
             // 
             // btn_applyRules
             // 
@@ -265,6 +265,7 @@
             this.btn_applyRules.TabIndex = 20;
             this.btn_applyRules.Text = "Применить правила";
             this.btn_applyRules.UseVisualStyleBackColor = true;
+            this.btn_applyRules.Click += new System.EventHandler(this.btn_applyRules_Click);
             // 
             // ChangeRules
             // 
