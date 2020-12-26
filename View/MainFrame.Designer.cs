@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.picture = new System.Windows.Forms.PictureBox();
             this.btn_addWorker = new System.Windows.Forms.Button();
             this.btn_alarm = new System.Windows.Forms.Button();
             this.btn_startPause = new System.Windows.Forms.Button();
@@ -36,16 +35,7 @@
             this.lb_eventList = new System.Windows.Forms.ListBox();
             this.btn_end = new System.Windows.Forms.Button();
             this.btn_export = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.picture)).BeginInit();
             this.SuspendLayout();
-            // 
-            // picture
-            // 
-            this.picture.Location = new System.Drawing.Point(23, 20);
-            this.picture.Name = "picture";
-            this.picture.Size = new System.Drawing.Size(595, 341);
-            this.picture.TabIndex = 0;
-            this.picture.TabStop = false;
             // 
             // btn_addWorker
             // 
@@ -126,17 +116,14 @@
             this.Controls.Add(this.btn_startPause);
             this.Controls.Add(this.btn_alarm);
             this.Controls.Add(this.btn_addWorker);
-            this.Controls.Add(this.picture);
             this.Name = "MainFrame";
             this.Text = "Симулятор лифта";
-            ((System.ComponentModel.ISupportInitialize)(this.picture)).EndInit();
+            this.Paint += new System.Windows.Forms.PaintEventHandler(this.MainFrame_Paint);
             this.ResumeLayout(false);
 
         }
 
         #endregion
-
-        private System.Windows.Forms.PictureBox picture;
         private System.Windows.Forms.Button btn_addWorker;
         private System.Windows.Forms.Button btn_alarm;
         private System.Windows.Forms.Button btn_startPause;

@@ -10,8 +10,7 @@ namespace Main
     {
         public int FloorsNumber => int.Parse(txt_floorNum.Text);
         public int LiftsNumber => int.Parse(txt_liftNum.Text);
-
-       // public event Action AddStartConfig;
+        // public event Action AddStartConfig;
 
         public StartConfigView()
         {
@@ -20,7 +19,7 @@ namespace Main
 
         private void btn_addBuilding_Click(object sender, EventArgs e)
         {
-            MainFrame mainFrame = new MainFrame();
+            MainFrame mainFrame = new MainFrame(FloorsNumber, LiftsNumber);
             mainFrame.Show();
             //AddStartConfig?.Invoke();
         }
