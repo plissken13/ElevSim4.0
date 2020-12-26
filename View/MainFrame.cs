@@ -23,12 +23,12 @@ namespace View
         {
             for(int i = 0; i < FloorsNumber + 1; i++)
             {
-                g.DrawLine(Pens.Black, new Point(100, 300-i*25), new Point(100 + 16 * 25, 300 - i * 25));
+                g.DrawLine(Pens.Black, new Point(100, 400-i*25), new Point(100 + 16 * 25, 400 - i * 25));
             }
 
             for(int j = 0; j < LiftsNumber; j++)
             {
-                g.DrawRectangle(Pens.Red, 100 + j*50, 50, 20, 50);
+                g.DrawRectangle(Pens.Red, 100 + 16 * 25 - 20 - j*50, 400 - 25, 20, 25);
             }
         }
 

@@ -39,7 +39,7 @@
             // 
             // btn_addWorker
             // 
-            this.btn_addWorker.Location = new System.Drawing.Point(473, 373);
+            this.btn_addWorker.Location = new System.Drawing.Point(480, 444);
             this.btn_addWorker.Name = "btn_addWorker";
             this.btn_addWorker.Size = new System.Drawing.Size(145, 65);
             this.btn_addWorker.TabIndex = 1;
@@ -49,7 +49,7 @@
             // 
             // btn_alarm
             // 
-            this.btn_alarm.Location = new System.Drawing.Point(137, 373);
+            this.btn_alarm.Location = new System.Drawing.Point(134, 444);
             this.btn_alarm.Name = "btn_alarm";
             this.btn_alarm.Size = new System.Drawing.Size(145, 30);
             this.btn_alarm.TabIndex = 2;
@@ -59,7 +59,7 @@
             // 
             // btn_startPause
             // 
-            this.btn_startPause.Location = new System.Drawing.Point(137, 406);
+            this.btn_startPause.Location = new System.Drawing.Point(134, 477);
             this.btn_startPause.Name = "btn_startPause";
             this.btn_startPause.Size = new System.Drawing.Size(145, 32);
             this.btn_startPause.TabIndex = 3;
@@ -68,7 +68,7 @@
             // 
             // btn_changeRules
             // 
-            this.btn_changeRules.Location = new System.Drawing.Point(23, 373);
+            this.btn_changeRules.Location = new System.Drawing.Point(20, 444);
             this.btn_changeRules.Name = "btn_changeRules";
             this.btn_changeRules.Size = new System.Drawing.Size(108, 64);
             this.btn_changeRules.TabIndex = 4;
@@ -87,7 +87,7 @@
             // 
             // btn_end
             // 
-            this.btn_end.Location = new System.Drawing.Point(288, 373);
+            this.btn_end.Location = new System.Drawing.Point(285, 444);
             this.btn_end.Name = "btn_end";
             this.btn_end.Size = new System.Drawing.Size(179, 30);
             this.btn_end.TabIndex = 2;
@@ -97,7 +97,7 @@
             // 
             // btn_export
             // 
-            this.btn_export.Location = new System.Drawing.Point(288, 409);
+            this.btn_export.Location = new System.Drawing.Point(285, 480);
             this.btn_export.Name = "btn_export";
             this.btn_export.Size = new System.Drawing.Size(179, 30);
             this.btn_export.TabIndex = 2;
@@ -108,7 +108,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(800, 521);
             this.Controls.Add(this.btn_export);
             this.Controls.Add(this.btn_end);
             this.Controls.Add(this.lb_eventList);
